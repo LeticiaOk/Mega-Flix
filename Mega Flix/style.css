@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+   background-color: rgb(27, 27, 27);
+
+}
+
+.cabecalho{
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(23, 23, 23);
+   
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu{
+    
+    display: flex;
+    gap: 20px;
+    font-family: 'Raleway', sans-serif;;
+    
+}
+.menu-filmes, .menu-series, .menu-categorias, .menu-preco, .menu-sobre {
+    color: white;
+}
+
+.menu-filmes:hover, .menu-series:hover, .menu-categorias:hover, .menu-preco:hover, .menu-sobre:hover{
+    opacity: 0.5;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.lupa:hover, .perfil:hover, .cardapio:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.home{
+    color: rgb(246, 106, 129);
+    font-weight: bolder;
+    
+}
+
+.home-linha{
+    background-color:rgb(235, 69, 97) ;
+    width:45px;
+    height: 2px;
+}
+
+.home-config{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo-nome{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.logo-nome::first-letter{
+    color: rgb(246, 106, 129);
+
+}
+
+.apresentacao{
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.apresentacao-conteudo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1205px;
+}
+
+
+.conteudo-principal-titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+}
+
+.conteudo-principal-paragrafo{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 60px;
+    font-size: 24.5px;
+}
+
+.botoes{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.botao-comecar{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color:rgb(235, 69, 97);
+    padding: 15px 60px 15px 60px;
+    border: 0;
+    border-radius: 25px;
+
+}
+
+.botao-comecar:hover{
+   background-color:rgb(165, 50, 70);
+   cursor: pointer;
+}
+
+
+.botao-planos{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color:rgb(43, 43, 44);
+    padding: 15px 70px 15px 70px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.botao-planos:hover{
+    background-color:rgb(58, 57, 57);
+    cursor: pointer;
+}
+
+.planos{
+    padding-bottom: 100px;
+    background-color:rgb(40, 40, 40);
+}
+
+.planos-conteudo{
+    padding-top: 50px;
+    width: 1205px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planos-titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.planos-paragrafo{
+    color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16.5px;
+    
+}
+.planos-containers{
+    display: flex;
+    margin-top:40px;
+    justify-content: center;
+    
+    gap: 50px;
+   
+}
+.planos-container{
+    
+    width: 350px;
+    
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+}
+.planos-container-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.planos-container-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.planos-container-preco{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.planos-container-diferenca{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.planos-container-botao{
+    border: none;
+    color: white;
+    background-color: rgb(235, 69, 97);
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 250px;
+    height: 45px;
+}
+
+.botao-mensal{
+    margin-top: 50px;
+}
+
+.container-anual{
+    border: 3px solid rgb(235, 69, 97);;
+}
+.container-mensal{
+    padding-top: 65px;
+}
+
+.container-trimestral{
+    padding-top: 65px;
+}
+.planos-economize{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(235, 69, 97);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 30px;
+    bottom: 15px;
+    z-index: 1;
+    color: white;
+}
+.introducao{
+    background-color:rgb(40, 40, 40) ;
+}
+.introducao-conteudo{
+   
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    width: 1205px;
+    
+}
+.introducao-titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.containers{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container{
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    text-align: center;
+    width: 586px;
+   
+    
+    
+}
+
+
+.container-titulo{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.container-paragrafo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.container-escrita{
+    padding: 15px;
+}
+
+.filmes{
+    padding-bottom: 100px;
+    
+}
+.filmes-conteudo{
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1205px;
+}
+.filmes-titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.filmes-paragrafo{
+    color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.filmes-containers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+.filmes-container{
+    width: 370px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 40);
+    border-top:  5px solid rgb(235, 69, 97);
+    
+   
+}
+
+.footer-linha{
+        /* background-color: rgb(238, 60, 90); */
+     height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
