@@ -6,7 +6,6 @@
 }
 body{
    background-color: rgb(27, 27, 27);
-
 }
 
 .cabecalho{
@@ -19,8 +18,6 @@ body{
     justify-content: space-around;
     padding: 10px;
     background-color: rgb(23, 23, 23);
-   
-    
 }
 
 .logo{
@@ -57,7 +54,6 @@ body{
 .home{
     color: rgb(246, 106, 129);
     font-weight: bolder;
-    
 }
 
 .home-linha{
@@ -93,7 +89,6 @@ body{
     width: 1205px;
 }
 
-
 .conteudo-principal-titulo{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -121,14 +116,12 @@ body{
     padding: 15px 60px 15px 60px;
     border: 0;
     border-radius: 25px;
-
 }
 
 .botao-comecar:hover{
    background-color:rgb(165, 50, 70);
    cursor: pointer;
 }
-
 
 .botao-planos{
     color: white;
@@ -176,14 +169,11 @@ body{
     display: flex;
     margin-top:40px;
     justify-content: center;
-    
     gap: 50px;
    
 }
 .planos-container{
-    
     width: 350px;
-    
     background-color: rgb(27, 27, 27);
     border-radius: 10px;
 }
@@ -289,14 +279,10 @@ body{
     border-radius: 10px;
     text-align: center;
     width: 586px;
-   
-    
-    
 }
 
 
 .container-titulo{
-    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
@@ -343,7 +329,6 @@ body{
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 40px;
-
 }
 
 .filmes-container{
@@ -352,13 +337,10 @@ body{
     border-radius: 10px;
     background-color: rgb(40, 40, 40);
     border-top:  5px solid rgb(235, 69, 97);
-    
-   
 }
 
 .footer-linha{
-        /* background-color: rgb(238, 60, 90); */
-     height: 50px;
+    height: 50px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
