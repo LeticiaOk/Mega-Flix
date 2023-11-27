@@ -1,14 +1,14 @@
-# Mega-Flix
-Site de filmes desenvolvido por mim com HTML e CSS.
+# Mega Flix
+## Site de filmes desenvolvido por mim com HTML e CSS.
 
-> ### Início
+* ### Início
 ![tela de início do site](img/inicio.jpg)
 
-> ### Planos
+* ### Planos
 ![tela de início do site](img/planos.jpg)
 
-> ### Filmes
+* ### Filmes
 ![tela de início do site](img/filmes.jpg)
 
-> ### Sobre
+* ### Sobre
 ![tela de início do site](img/sobre.jpg)
