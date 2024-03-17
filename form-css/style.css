@@ -104,3 +104,21 @@ footer{
     text-align: center;
     margin-top: 50px;
 }
+
+/* Estilizando a scrollbar vertical */
+/* Estilo da trilha */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da scrollbar */
+  }
+  
+/* Estilo do "pulso" da scrollbar */
+::-webkit-scrollbar-thumb {
+background-color: #565656; /* Cor do "pulso" */
+border-radius: 5px; /* Raio das bordas do "pulso" */
+}
+
+/* Estilizando a scrollbar horizontal */
+/* Mesmas propriedades, trocando o eixo para horizontal */
+::-webkit-scrollbar {
+height: 10px; /* Altura da scrollbar */
+}
